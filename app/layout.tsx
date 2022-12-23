@@ -1,4 +1,5 @@
 import '../styles/globals.css'
+import { AnalyticsWrapper } from './components/Analytics'
 import Header from './Header'
 export default function RootLayout({
   children,
@@ -12,6 +13,7 @@ export default function RootLayout({
         <Header/>
         <div className='max-w-6xl mx-auto'
         >{children}</div>
+        <AnalyticsWrapper/>
         </body>
     </html>
   )
