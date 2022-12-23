@@ -11,8 +11,9 @@ function Header() {
       <div className='grid grid-cols-3 p-10 items-center '>
         <Bars3Icon className='h-8 w-8 cursor-pointer'/>
         <Link href={"/"} prefetch={false} >
-            <h1 className='font-semibold font-serif text-slate-900 text-4xl flex-1 text-center '> News
-            <span className='text-red-600'>Analytica</span>
+            <h1 className='font-semibold font-serif text-slate-900 text-4xl flex-1 text-center'> News
+            <span className='text-red-600 mr-5 pr-5'>Analytica</span>
+            <span className='mx-5'></span>
             </h1>
         </Link>
         <div className='flex items-center justify-end space-x-2'>
